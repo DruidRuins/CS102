@@ -1,0 +1,45 @@
+/*use control ? for making comments in css, we will use this as a declaration block
+
+declaration block:
+
+selector{
+        property: value;
+        property2: value;
+        
+        
+}
+        
+*/
+
+body{
+
+    background-color: darkgray;
+    color: #fffdd0
+
+}
+     
+nav{
+        height: 600px;
+        width: 200px;
+
+    }
+
+
+    footer{
+        text-align:center;
+        margin-right: 200px;
+
+    }
+
+
+    #memeImage{
+        margin-right: 200px;
+        width: 400px;
+
+    }
+
+h1{
+    text-align: center;
+
+    
+}
