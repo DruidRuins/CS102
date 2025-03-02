@@ -15,9 +15,11 @@ selector{
 body{
 
     background-color: darkgray;
+    /* I'm not really great at color theory,
+     but background color sets the background of the whole page as is to the color assigned */
     color: #fffdd0
    
-
+/*sets the color for the text */
 
 }
      
@@ -46,12 +48,35 @@ nav{
 
     #memeImage{
         margin-right: 200px;
-        width: 400px;
-
+        width: 600px;
+/* margin sets it up to have a little bit of space to the right of the page (margin-right)
+ Width affects the image itself in size */
     }
 
 h1{
     text-align: center;
+/* this sets up the text for our headings to be centered than by default to the far left */
+
+}
+
+h3{
 
 
+text-align: right;
+/* sets text to the right */
+color: black;
+padding: 50px;
+}
+
+#weapons{
+
+    float: right;
+    /* sets image to the right */
+    padding-bottom: 50px;
+    /* little bit of cushion on bottom of page */
+    padding-right: 40px;
+    /* give some room to the right */
+    width: 300px;
+    height: 400px;
+   margin-top: -500px;
 }
