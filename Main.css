@@ -5,6 +5,7 @@ declaration block:
 selector{
         property: value;
         property2: value;
+        property3: value;
         
         
 }
@@ -15,13 +16,24 @@ body{
 
     background-color: darkgray;
     color: #fffdd0
+   
+
 
 }
      
 nav{
         height: 600px;
+ /* sets the height */
         width: 200px;
+ /* sets it width */
+ 
+        padding: 5px;
+ /* this sets the space between an element content and border */
 
+        float: left;
+ /* helps set the element in this case to the left side */
+        line-height: 30px;
+ /* specifies height of line */
     }
 
 
@@ -41,5 +53,5 @@ nav{
 h1{
     text-align: center;
 
-    
+
 }
