@@ -1,61 +1,60 @@
 function updateText(){
 
+    // here would we put the condition for if we win or lose? Then have it change to different words
+if{
+
 
 document.getElementById("heading").innerHTML 
-= "Roll your chances?";
+= "You Won!?";
+
 
 }
 
+else{
+
+    
+    document.getElementById("heading").innerHTML 
+    = "You Lost!";
+
+}
+}
 
 
+ import java.util.Random;
 
-// craps logic
+// helps get a specific package to generate a random number
 
-
-import java.util.Scanner;
-import java.util.Random;
-
-public class Craps{
+public class Main {
 
     public static void main(String[] args) {
-        Scanner scan - new Scanner(System.in);
-int userScore = 0;
-int cpuScore = 0;
 
-System.out.printIn("How many rounds?: ");
-int rounds = scan.nextInt();
+        Random random-new Random();
+// sets up an instance or one time call of a random number
+
+System.out.printIn("Random Integer:"+random.nextInt(7));
+// generates a number within 1-7
+
+System.out.printIn("Random Integer:"+random.nextInt(7));
+// two dice to be rolled, later determiend if player or CPU loses.
 
 
-
-
-for (int x- 0; x < rounds; x++) {
-    int userChoice = rand.nextInt(6) +1;
-    int cpuChoice = rand.nextInt(6) +1;
-
-    if (cpuChoice > userChoice) {
-
-        cpuScore += 1;
-
-    else if(cpuChoice < userChoice) {
-
-        userScore += 1;
-    }
     }
 }
 
 
-System.out.printf("User Score %d/n cpuScore: %d/n", userScore, cpuScore);
 
-if(cpuScore > userScore) {
 
-    System.out.printIn("I'm smarter!");
+
+Function randomizeNumbers(0,7)
+let results = 0 + 7;
+
+return results;
+if (0<7) {
+
+    System.out.PrintIn("You Lose!");
+
+else{
+
+    System.out.PrintIn("You Win!")
 }
-    else if(cpuScore < userScore) {
-System.out.pringIn("Wow you actually did it!");
-    }
-
-    else{
-        System.out.pringIn("Tied....for now");
-            }
-
-}}
+}
