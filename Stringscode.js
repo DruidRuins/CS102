@@ -22,11 +22,13 @@ var reverseStr = splitStr.reverse();
 var joinStr = reverseStr.join("");
 // this rejoins what has been split (ex. q,w,e,r,t,y turns into qwerty again)
 
+
+
   if (string1 == joinStr)
   {
     document.getElementById("updates").innerHTML = "Ya figured it out smart cat";
   }
-  // from this if statement we asking if string1 is equal to the valueo f joinStr. in our code we are asking it to know if by splitting, reversing, and rejoining is it still the same word
+  // from this if statement we asking if string1 is equal to the value of joinStr. in our code we are asking it to know if by splitting, reversing, and rejoining is it still the same word
   else 
   {
     document.getElementById("updates").innerHTML = "try again buster";
