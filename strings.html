@@ -1,0 +1,37 @@
+<!-- Benton Marcum cs102 code -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "Stringscode.js">  </script>
+    <title>We like Taco Cats</title>
+    <link rel="stylesheet" href="Mainstring.css">
+</head>
+<body>
+    
+    <h1> Think you can feed a palindrome to the CPU?</h3>
+    <!-- title of page or section on page -->
+
+    <form id = "stringInput" onsubmit = "return false">
+        <!-- we're using the ID stringInput and upon submitting 
+         seeing if it will return false -->
+    
+        Enter Here: <input type = "text" id = "firstString"/>
+        <!-- first string we are using, with its id labeled as such. The input we want to receive
+         from the user though is text (generally from keyboard) -->
+       
+        <!-- give a little space so its not all bunched up -->
+        <!-- this can be added if we want a second input see code to the right -- String 2: <input type = "text" id = "secondString"/> -->
+        <!-- second string of input to be used -->
+        <input type = "submit" onclick = "strings()"/>
+        <!-- creates a button that requires input by clicking (onclick) / submits data  -->
+
+    </form>
+    <!-- need to end the form tag capturing all the inputs we have -->
+
+    <p id = "updates"> Let's see what you cook up!</p>
+
+</body>
+</html>

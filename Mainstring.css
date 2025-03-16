@@ -1,0 +1,31 @@
+body{
+
+    background-color: #89CFF0;
+    /* I'm not really great at color theory,
+     but background color sets the background of the whole page as is to the color assigned */
+    color: #FF7F50
+   
+/*sets the color for the text */
+
+}
+
+
+h1{
+    text-align: center;
+/* this sets up the text for our headings to be centered than by default to the far left */
+
+}
+
+
+form{
+
+    text-align: center;
+
+}
+
+p{
+
+    text-align: center;
+    margin-right: 138px;
+    /* set up like this to get it aligned with enter here. May be easier way, but this works */
+}
