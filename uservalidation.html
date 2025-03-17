@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Message</title>
+    <link rel="stylesheet" href="Main.css">
+    <script src= "uservalidation.js"></script>
+
+    <!--referencing the script in uservalidation so it knows what we want it to do and the stylesheet is coming from Main.css-->
+</head>
+<body>
+   
+
+    <header>
+       
+        <h1 id="heading">Enter The Secret Sauce</h1>
+<!-- this heading is set up with an ID of heading so it can be linked and referenced -->
+    </header>
+
+    <form id= "login" onsubmit = "return false";>
+
+First Name: <input type = "text" id = "fName"/>
+<br> 
+<!-- giving from the form how it will be labeled, and the type of input, Id to be referenced. This follows for last name -->
+Last Name:  <input type = "text" id = "lName"/>
+<br>
+Zip Code:  <input type = "number" id = "zip"/>
+<!-- uses number than text for input to receive the correct input -->
+<br>
+        <input type = "submit" onclick = "checkCreds();">
+    </form>
+<!-- end of the form once filled out, user clicks on submit and it rolls out function to check credentials as referenced in uservalidation.js -->
+
+    <p id = "loginstatus"> What could it be....</p>
+
+
+</body>
+</html>

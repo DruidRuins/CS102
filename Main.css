@@ -15,29 +15,16 @@ selector{
 
 body{
 
-    background-color: darkgray;
+    background-color:#87A96B;
     /* I'm not really great at color theory,
      but background color sets the background of the whole page as is to the color assigned */
-    color: #fffdd0
+    color: #fd5c63
    
 /*sets the color for the text */
 
 }
      
-nav{
-        height: 600px;
- /* sets the height */
-        width: 200px;
- /* sets it width */
- 
-        padding: 5px;
- /* this sets the space between an element content and border */
 
-        float: left;
- /* helps set the element in this case to the left side */
-        line-height: 30px;
- /* specifies height of line */
-    }
 
 
     footer{
@@ -63,9 +50,9 @@ h1{
 h3{
 
 
-text-align: right;
+text-align: center;
 /* sets text to the right */
-color: black;
+color:#00563B;
 padding: 50px;
 }
 
