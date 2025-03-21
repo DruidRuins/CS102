@@ -13,16 +13,16 @@ function RPS()
     var fireImage = "charmanderderp.png";
     var waterImage = "squirtlederp.png";
     var grassImage = "bulbasaurderp.png";
-
+// 
 
 if (result == 1)
 {
-    document.getElementById("player1Img").src = fireImage;
+    document.getElementById("resultImg").src = fireImage;
 }
 
 else  
 {
-    document.getElementById("Player1Img").src = waterImage;
+    document.getElementById("resultImg").src = waterImage;
 }
 
 
