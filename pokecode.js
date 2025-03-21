@@ -10,26 +10,25 @@ function RPS()
     
     
 
-    var fireImage = "charmanderderp.png";
-    var waterImage = "squirtlederp.png";
-    var grassImage = "bulbasaurderp.png";
+    var heads = "charmanderderp.png";
+    var tails = "squirtlederp.png";
+    // photos for reference being used. 
 // 
 
 if (result == 1)
-{
-    document.getElementById("resultImg").src = fireImage;
-}
-
-else  
-{
-    document.getElementById("resultImg").src = waterImage;
-}
+    {
+        document.getElementById("resultImg").src = heads;
+    }
+    
+    else  
+    {
+        document.getElementById("resultImg").src = tails;
+    }
 
 
     
 
-// the && helps us know that 2 conditions must be true
-// the || helps us know that only 1 of the conditions needs to be true
+
         if (result == 1)
            { 
             document.getElementById("finalResult").innerHTML = "Tails";
@@ -39,6 +38,6 @@ else
            {
             document.getElementById("finalResult").innerHTML = "Heads";
            }
-
+// if result is equal to one then we are going to do tails. Otherwise it will be heads
 }
 
