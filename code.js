@@ -23,16 +23,16 @@ document.getElementById("heading").innerHTML
     //the total amount or sum of dice 1 and 2 to be calculated
 
 
-    document.write("Die 1 = " + die1)
+    document.getElementById("Die 1 = " + die1)
     // document.write allows us to print onto the webpage what we want it to show
     //you can also have it interchangeable context from adding variables as shown
-    document.write("<br />")
+    document.getElementById("<br />")
     //this puts a break in the screen so it isn't all mashed up
-    document.write("Die 2 = " + die2)
-    document.write("<br />")
+    document.getElementById("Die 2 = " + die2)
+    document.getElementById("<br />")
     // shows the results of die 2
-    document.write("Sum = " + sum)
-    document.write("<br />")
+    document.getElementById("Sum = " + sum)
+    document.getElementById("<br />")
     //shows the results of die 1 and 2 added together
    
 if (sum == 7 || sum == 11)
@@ -40,15 +40,15 @@ if (sum == 7 || sum == 11)
 // it out so we can tell the results as shown below
 
 {
-    document.write("CRAPS you lose!")
-    document.write("<br/>")
+    document.getElementById("CRAPS you lose!")
+    document.getElementById("<br/>")
 }
 
 else if (die1 == die2 && die1%2 == 0)
 
 {
-    document.write("CRAPS ya got me!")
-    document.write("<br/>")
+    document.getElementById("CRAPS ya got me!")
+    document.getElementById("<br/>")
 
 }
 
@@ -56,13 +56,3 @@ else if (die1 == die2 && die1%2 == 0)
 
 
 
-import java.util.Random;
-
-  int rand_int1 = rand.nextInt(6);
-  int rand_int2 = rand.nextInt(6);
-  // pulls a random number between 1-6
-
-document.write("random #1 = " + rand_int2)
-document.write("random #2 = " + rand_int1)
-
-// writes the number that is rolled for the random integers
