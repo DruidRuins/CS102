@@ -17,7 +17,7 @@
             Catch the Snitch
         </h1>
 
-
+<!-- heading that reads "Catch the Snitch" -->
        
           
              
@@ -25,20 +25,22 @@
 
              <button id = "snitchbutton" onclick = "snitchPlay();" >Catch it!</button>
              <button id = "snitchstopbutton" onclick = "snitchstopPlay();" >Stop</button>
+             <!-- these buttons have ids that allow us to reference it in code and css. They are labeled upon viewing as catch it and stop. Upon click they execute the functions to play and stop -->
 
         <img src = "snitch.jpg" id = "snitchpic" style = "position: absolute;
         bottom:300;top:100; width:200px;"/>
+        <!-- this sets the position of the snitch at the beginning of the code -->
 
-       <p id = "instructions"><strong></strong>Click on the snitch as it moves to catch it. Run out of time and you lose!</strong></p>
+       <p id = "instructions"><strong>Click on the snitch as it moves to catch it. Run out of time and you lose!</strong></p>
        <p id = "music"><strong>Play some epic music as you try to catch it</strong></p>
 
-
+<!-- these paragrahs have IDs to be adjusted for CSS and have bolded letter through strong element. -->
        <audio controls>
 
         <source src = "wind-sound-301491.mp3"> <source>
 
        </audio>
 
-       
+       <!-- audio controls to know how to reference the correct source on the page for HTML. Gives controls to play and pause music -->
       </body>
    </html>

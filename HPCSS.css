@@ -3,13 +3,14 @@
    display: center;
    margin-left: 725px;
 }
-
+/* settings for the snitch pic where it originally sets. Not to be compared to where it then starts after code is executed */
 #instructions
 {
 
     text-align: center;
     margin-top: 200px;
 color: aliceblue;
+ /* sets paragraph CSS settings for color and margin placement */
 }
 
 #music{
@@ -18,14 +19,16 @@ color: aliceblue;
     text-align: left;
     margin-top: 400px;
     color: aliceblue;
+    /* sets paragraph CSS settings for color and margin placement */
 }
 
 h1{
 
     text-align: center;
 }
-
+/* sets heading to the center */
 body {
     background-image: url("quidditchbackground.jpg");
     background-color: #cccccc;
 }
+/* give the background an image and back-up color.  */
