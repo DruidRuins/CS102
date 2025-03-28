@@ -19,19 +19,25 @@
 
 
        
-            <!-- img is the image tag -->
-             <img id="snitchImage" src="snitch.jpg">
+          
+             
              <br>
 
              <button id = "snitchbutton" onclick = "snitchPlay();" >Catch it!</button>
+             <button id = "snitchstopbutton" onclick = "snitchstopPlay();" >Stop</button>
 
-       <p>Click on the snitch as it moves to catch it. Run out of time and you lose!</p>
-       <p>Play some epic music as you try to catch it</p>
+        <img src = "snitch.jpg" id = "snitchpic" style = "position: absolute;
+        bottom:300;top:100; width:200px;"/>
+
+       <p id = "instructions">Click on the snitch as it moves to catch it. Run out of time and you lose!</p>
+       <p id = "music">Play some epic music as you try to catch it</p>
+
+
        <audio controls>
 
-        <source src = "soundcs102.wav"> <source>
+        <source src = "wind-sound-301491.mp3"> <source>
 
-    </audio>
+       </audio>
 
        
       </body>

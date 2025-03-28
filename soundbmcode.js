@@ -2,7 +2,7 @@
 
 function play ()
 {
-    mySound = new sound("soundcs102.wav");
+    mySound = new sound("tuning-radio-7150.mp3");
     mySound.play();
     document.getElementById("startbutton").disabled = true;
 
@@ -12,9 +12,10 @@ function play ()
 }
 
 
-function stop ()
+function stopPlay()
 {
-
+    document.getElementById("startbutton").disabled = false;
+    document.getElementById("stopbutton").disabled  = true;
     window.location.reload();
   
 }
