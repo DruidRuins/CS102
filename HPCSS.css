@@ -1,6 +1,7 @@
 #snitchpic
 {
    display: center;
+   margin-left: 725px;
 }
 
 #instructions
@@ -8,17 +9,23 @@
 
     text-align: center;
     margin-top: 200px;
-
+color: aliceblue;
 }
 
 #music{
 
 
-  text-align: left;
+    text-align: left;
     margin-top: 400px;
+    color: aliceblue;
 }
 
 h1{
 
     text-align: center;
+}
+
+body {
+    background-image: url("quidditchbackground.jpg");
+    background-color: #cccccc;
 }
