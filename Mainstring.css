@@ -12,6 +12,7 @@ body{
 
 h1{
     text-align: center;
+    padding-top: 300px;
 /* this sets up the text for our headings to be centered than by default to the far left */
 
 }
@@ -28,4 +29,27 @@ p{
     text-align: center;
     margin-right: 138px;
     /* set up like this to get it aligned with enter here. May be easier way, but this works */
+}
+
+nav {
+    background-color: black;
+}
+
+nav a{
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+nav a:hover {
+
+    background-color: #e0e0e0;
+    color: black;
+
 }

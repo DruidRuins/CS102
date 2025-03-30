@@ -25,6 +25,7 @@ color: aliceblue;
 h1{
 
     text-align: center;
+    padding-top: 100px;
 }
 /* sets heading to the center */
 body {
@@ -32,3 +33,27 @@ body {
     background-color: #cccccc;
 }
 /* give the background an image and back-up color.  */
+
+
+nav {
+    background-color: black;
+}
+
+nav a{
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+nav a:hover {
+
+    background-color: #e0e0e0;
+    color: black;
+
+}

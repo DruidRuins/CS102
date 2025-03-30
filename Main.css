@@ -15,10 +15,10 @@ selector{
 
 body{
 
-    background-color:#87A96B;
+    background-color:#3d4d4b;
     /* I'm not really great at color theory,
      but background color sets the background of the whole page as is to the color assigned */
-    color: #fd5c63
+    color: black;
    
 /*sets the color for the text */
 
@@ -28,8 +28,10 @@ body{
 
 
     footer{
-        text-align:center;
-        margin-right: 200px;
+        float: right;
+        text-align:bottom;
+        margin-right: 50px;
+        padding-top: 190px;
 
     }
 
@@ -37,6 +39,8 @@ body{
     #memeImage{
         margin-right: 200px;
         width: 600px;
+        padding-left: 650px;
+        padding-top: 50px;
 /* margin sets it up to have a little bit of space to the right of the page (margin-right)
  Width affects the image itself in size */
     }
@@ -56,22 +60,47 @@ color:#00563B;
 padding: 50px;
 }
 
-#weapons{
-
-    float: right;
-    /* sets image to the right */
-    padding-bottom: 50px;
-    /* little bit of cushion on bottom of page */
-    padding-right: 40px;
-    /* give some room to the right */
-    width: 300px;
-    height: 400px;
-   margin-top: -500px;
-}
 
 
 .gamebutton{
 
 text-align: center;
 
+}
+
+
+
+nav {
+    background-color: black;
+}
+
+nav a{
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+nav a:hover {
+
+    background-color: #e0e0e0;
+    color: black;
+
+}
+
+#login{
+
+    padding-top: 300px;
+    text-align: center;
+}
+
+#loginstatus{
+
+    text-align: center;
+    padding-right: 130px;
 }

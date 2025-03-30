@@ -1,0 +1,47 @@
+body{
+
+    background-color:#3d4d4b;
+    /* I'm not really great at color theory,
+     but background color sets the background of the whole page as is to the color assigned */
+    color: black;
+    /*sets the color for the text */
+
+}
+    
+    tr{
+
+    text-align: center;
+}
+
+table{
+
+   
+}
+
+nav {
+    background-color: black;
+}
+
+nav a{
+
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+nav a:hover {
+
+    background-color: #B8860B;
+    color: black;
+}
+
+h1{
+
+    text-align: center;
+}
+
